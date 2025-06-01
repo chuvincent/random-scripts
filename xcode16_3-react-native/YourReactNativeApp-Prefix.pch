@@ -1,0 +1,15 @@
+#ifndef YourReactNativeApp_Prefix_pch
+#define YourReactNativeApp_Prefix_pch
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+#ifdef __cplusplus
+#include <string>
+#include <ios>
+#include "custom_char_traits.h"
+#endif
+
+#endif /* YourReactNativeApp_Prefix_pch */ 
